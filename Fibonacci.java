@@ -1,4 +1,4 @@
-public class Fibonacci { // Recursive Method to generate Fibonacci numbers
+public class Fibonacci {// Recursive method to generate Fibonacci numbers
 	public int fib(int N) {
 		if (N == 0){
 			return 0;
