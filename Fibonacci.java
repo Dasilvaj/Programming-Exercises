@@ -6,7 +6,7 @@ public class Fibonacci { // Recursive Method to generate Fibonacci numbers
 	    	else if (N == 1){
 	    		return 1;
 	    	}
-		int val = fib(N-1) + fib(N - 2);
+		int val = fib(N - 1) + fib(N - 2);
 	        return val;
 	}
 }
